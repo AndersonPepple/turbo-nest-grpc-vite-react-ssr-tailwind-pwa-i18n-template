@@ -1,11 +1,23 @@
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
 
 > hms:lib:update
 > copyfiles -u 3 ../../hms-apps/google/**/* ../../hms-apps/proto/**/*.ts src/types && npm install
 
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'rollup@4.9.1',
+npm WARN EBADENGINE   required: { node: '>=18.0.0', npm: '>=8.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.15.1', npm: '8.11.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'vite@5.0.12',
+npm WARN EBADENGINE   required: { node: '^18.0.0 || >=20.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.15.1', npm: '8.11.0' }
+npm WARN EBADENGINE }
 
-up to date, audited 1777 packages in 11s
+up to date, audited 1804 packages in 13s
 
-379 packages are looking for funding
+384 packages are looking for funding
   run `npm fund` for details
 
 found 0 vulnerabilities
